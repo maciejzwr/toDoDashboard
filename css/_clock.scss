@@ -1,0 +1,59 @@
+.clock {
+    
+    
+    .card {
+      height: 90%;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      position: relative;
+      border: 1px solid #045de9;
+  
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+      }
+    }
+    .title {
+      text-align: center;
+    }
+    .time {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  #alarm-modal {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+    box-shadow: 0 2px 100px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    opacity: 0;
+    right: -100%;
+    transition: all .5s ease;
+  
+    &.show {
+      opacity: 1;
+      right: 50px;
+    }
+  
+    img {
+      width: 128px;
+      margin-bottom: 20px;
+    }
+  }
