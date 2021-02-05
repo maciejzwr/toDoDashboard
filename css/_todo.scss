@@ -91,71 +91,9 @@ h3 {
   background-color: #ddd;
 }
 
-.edit {
-  font-weight: bold;
-  color: rgb(15, 179, 69);
-}
+
 
 .delete {
   color: tomato;
 }
 
-.popup {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: fixed;
-  bottom: 420px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
-  color: $light;
-  background-color: $light-dark;
-  border-radius: 5px;
-}
-
-.popup h3 {
-  padding: 20px;
-}
-
-.popup-info {
-  margin-bottom: 20px;
-  color: $light;
-}
-
-.popup-body {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 90%;
-  padding: 10px;
-}
-
-.popup-input {
-  width: 100%;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  color: $light-dark;
-  background-color: $light;
-}
-
-.popup-btn {
-  display: inline-block;
-  width: 30%;
-  padding: 10px 22px;
-  margin: 20px;
-  border: none;
-  border-radius: 5px;
-  color: $dark-blue;
-  background-color: $light;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.popup-btn:hover {
-  color: #fff;
-  background-color: $light-blue;
-}

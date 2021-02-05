@@ -19,8 +19,8 @@ const createPost = (post) => {
   cardTitle.classList.add('card-title');
   cardText.classList.add('card-text');
 
-  image.setAttribute('src', post.multimedia[0].url);
-  cardTitle.setAttribute('href', post.url);
+  // image.setAttribute('src', post.multimedia[0].url);
+  // cardTitle.setAttribute('href', post.url);
 
   cardTitle.textContent = post.title;
   cardText.textContent = post.abstract;
