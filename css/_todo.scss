@@ -5,164 +5,157 @@ $dark-blue: rgb(2, 84, 161);
 $light: rgb(245, 245, 245);
 
 h1 {
-    // margin-bottom: 20px;
-    color: $light;
-    text-transform: uppercase;
-    font-size: 1,5rem;
+  // margin-bottom: 20px;
+  color: $light;
+  text-transform: uppercase;
+  font-size: 1, 5rem;
 }
 
 .todo {
-  
-    width: 600px;
-    text-align: center;
-    background: #fff;
-    box-shadow: 4px 4px 5px rgba(82, 82, 82, .4);
-    border-radius: 5px;
+  width: 600px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 4px 4px 5px rgba(82, 82, 82, 0.4);
+  border-radius: 5px;
 }
 
 .header {
-    // padding: 40px;
-    border-radius: 5px 5px 0 0;
-    background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+  // padding: 40px;
+  border-radius: 5px 5px 0 0;
+  background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
 }
 
 .todo-input {
-    width: 80%;
-    margin-bottom: 10px;
-    // padding: 10px 20px;
-    margin-right: 20px;
-    border: none;
-    border-radius: 5px;
-    color: $light-dark;
-    background-color: $light;
+  width: 80%;
+  margin-bottom: 10px;
+  // padding: 10px 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  color: $light-dark;
+  background-color: $light;
 }
 
 .alert-info {
-    margin-top: 20px;
-    color: $dark-blue;
+  margin-top: 20px;
+  color: $dark-blue;
 }
 
 .add-btn {
- 
-    border: none;
-    border-radius: 5px;
-    color: $light-blue;
-    background-color: $light;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color .3s, color .3s;
+  border: none;
+  border-radius: 5px;
+  color: $light-blue;
+  background-color: $light;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .add-btn:hover {
-    color: #fff;
-    background-color: $light-dark;
+  color: #fff;
+  background-color: $light-dark;
 }
 
 .todo-list {
- 
-    h3 {
-        font-size: 1,1rem;
-      
-    }
+  h3 {
+    font-size: 1, 1rem;
+  }
 }
 
- h3 {
- font-size: 1,2rem;
+h3 {
+  font-size: 1, 2rem;
 }
 
 .todo-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    list-style: none;
-    background-color: $light;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  background-color: $light;
 }
- 
+
 .tools {
-    display: flex;
-    margin-right: 30px;
+  display: flex;
+  margin-right: 30px;
 }
 
 .tools button {
- 
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    transition: background-color .3s;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .tools button:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
-
 .edit {
-    font-weight: bold;
-    color: rgb(15, 179, 69);
+  font-weight: bold;
+  color: rgb(15, 179, 69);
 }
 
 .delete {
-    color: tomato;
+  color: tomato;
 }
 
-
 .popup {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    bottom: 420px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 800px;
-    color: $light;
-    background-color: $light-dark;
-    border-radius: 5px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 420px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  color: $light;
+  background-color: $light-dark;
+  border-radius: 5px;
 }
 
 .popup h3 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .popup-info {
-    margin-bottom: 20px;
-    color: $light;
+  margin-bottom: 20px;
+  color: $light;
 }
 
 .popup-body {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 10px;
 }
 
 .popup-input {
-    width: 100%;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    color: $light-dark;
-    background-color: $light;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: $light-dark;
+  background-color: $light;
 }
 
 .popup-btn {
-    display: inline-block;
-    width: 30%;
-    padding: 10px 22px;
-    margin: 20px;
-    border: none;
-    border-radius: 5px;
-    color: $dark-blue;
-    background-color: $light;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color .3s, color .3s;
+  display: inline-block;
+  width: 30%;
+  padding: 10px 22px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  color: $dark-blue;
+  background-color: $light;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .popup-btn:hover {
-    color: #fff;
-    background-color: $light-blue;
+  color: #fff;
+  background-color: $light-blue;
 }

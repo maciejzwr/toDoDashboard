@@ -41,6 +41,7 @@ const editTask = (idNumber) => {
       taskToChange.childNodes[0].textContent = popupInput.value;
       popup.style.display = "none";
       popupInfo.innerText = "";
+      popupInput.value = ''
     } else {
       popupInfo.innerText = "Musisz wpisać nową nazwę zadania";
     }
@@ -59,6 +60,7 @@ addBtn.addEventListener("click", () => {
   if (todoInput.value !== "") {
     addTask();
     alertInfo.innerText = "Zadania: ";
+    todoInput.value = ''
   } else {
     alertInfo.innerText = "Musisz wpisać treść zadania";
   }
