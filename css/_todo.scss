@@ -21,8 +21,11 @@ h1 {
 
 .header {
   // padding: 40px;
-  border-radius: 5px 5px 0 0;
-  background-image: linear-gradient(340deg, #045de9 0%, #09c6f9 100%);
+  
+        border-radius: 5px 5px 0 0;
+        background-color: #9dc5c3;
+        background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+   
 }
 
 .todo-input {
@@ -91,9 +94,67 @@ h3 {
   background-color: #ddd;
 }
 
-
-
 .delete {
   color: tomato;
 }
 
+.popup-btn {
+  display: inline-block;
+  width: 30%;
+  padding: 10px 22px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  color: $dark-blue;
+  background-color: $light;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.popup-input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: $light-dark;
+  background-color: $light;
+}
+.popup-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 10px;
+}
+small {
+  font-size: 0.9rem;
+}
+.popup-info {
+  margin-bottom: 20px;
+  color: $light;
+}
+.popup h3 {
+  padding: 20px;
+  padding: 20px;
+}
+.popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 420px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  color: $light;
+  background-color: $light-dark;
+  border-radius: 5px;
+}
+.completed {
+  font-size: 12px;
+  font-style: italic;
+  color: $light-dark;
+  text-decoration: line-through;
+}
